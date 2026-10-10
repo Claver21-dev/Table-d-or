@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>La Table d'Or - Restaurant</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR  -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            <i class="bi bi-cup-hot-fill"></i>
+            La Table d'Or
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarRestaurant"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarRestaurant">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#accueil">Accueil</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#apropos">À propos de nous</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- HERO  -->
+
+<section id="accueil" class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content text-center">
+
+        <span class="badge bg-warning text-dark mb-3">
+            Restaurant gastronomique
+        </span>
+
+        <h1>Le goût de l'excellence</h1>
+
+        <p>
+            Découvrez une cuisine raffinée préparée avec passion
+            et des produits soigneusement sélectionnés.
+        </p>
+
+        <a href="#menu" class="btn btn-warning btn-lg">
+            Découvrir notre menu
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- MENU  -->
+
+<section id="menu" class="py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="section-title">Notre carte</span>
+
+            <h2>Nos plats populaires</h2>
+
+            <p class="text-muted">
+                Une sélection de nos meilleures spécialités.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+            <!-- Plat 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="card menu-card h-100">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top"
+                        alt="Salade fraîche"
+                    >
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Salade Fraîche
+                        </h5>
+
+                        <p class="card-text text-muted">
+                            Une délicieuse salade composée de légumes
+                            frais, avocat et sauce maison.
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="price">
+                                6 500 FCFA
+                            </span>
+
+                            <span class="badge bg-warning text-dark">
+                                Populaire
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Plat 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="card menu-card h-100">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top"
+                        alt="Steak grillé"
+                    >
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Steak Grillé
+                        </h5>
+
+                        <p class="card-text text-muted">
+                            Une viande tendre grillée à la perfection,
+                            accompagnée de légumes et pommes de terre.
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="price">
+                                12 000 FCFA
+                            </span>
+
+                            <span class="badge bg-dark">
+                                Chef
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Plat 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="card menu-card h-100">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top"
+                        alt="Pizza"
+                    >
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Pizza Maison
+                        </h5>
+
+                        <p class="card-text text-muted">
+                            Une pizza généreuse avec une pâte croustillante,
+                            mozzarella, tomates et basilic frais.
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <span class="price">
+                                8 000 FCFA
+                            </span>
+
+                            <span class="badge bg-warning text-dark">
+                                Nouveau
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- À PROPOS  -->
+
+<section id="apropos" class="about-section py-5">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-12 col-md-6">
+
+                <img
+                    src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80"
+                    class="img-fluid rounded-4 shadow"
+                    alt="Restaurant"
+                >
+
+            </div>
+
+
+            <div class="col-12 col-md-6">
+
+                <span class="section-title">
+                    Notre histoire
+                </span>
+
+                <h2>
+                    Une passion pour la cuisine
+                </h2>
+
+                <p>
+                    Depuis plusieurs années, La Table d'Or propose
+                    une cuisine authentique et généreuse.
+                </p>
+
+                <p>
+                    Notre équipe travaille chaque jour avec des produits
+                    frais afin de proposer à nos clients une expérience
+                    culinaire unique.
+                </p>
+
+                <a href="#contact" class="btn btn-dark">
+                    Nous contacter
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="section-title">
+                Contact
+            </span>
+
+            <h2>Réservez votre table</h2>
+
+            <p class="text-muted">
+                Une question ? Contactez-nous.
+            </p>
+
+        </div>
+
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-md-8 col-lg-6">
+
+                <form>
+
+                    <div class="mb-3">
+
+                        <label for="nom" class="form-label">
+                            Nom complet
+                        </label>
+
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="nom"
+                            placeholder="Votre nom"
+                        >
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label for="email" class="form-label">
+                            Adresse email
+                        </label>
+
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            placeholder="exemple@email.com"
+                        >
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label for="message" class="form-label">
+                            Message
+                        </label>
+
+                        <textarea
+                            class="form-control"
+                            id="message"
+                            rows="5"
+                            placeholder="Votre message..."
+                        ></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="btn btn-warning w-100">
+                        Envoyer
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="footer text-center py-4">
+
+    <div class="container">
+
+        <p class="mb-3">
+            © 2026 La Table d'Or — Tous droits réservés.
+        </p>
+
+        <div class="social-icons">
+
+            <a href="#">
+                <i class="bi bi-facebook"></i>
+            </a>
+
+            <a href="#">
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="bi bi-twitter-x"></i>
+            </a>
+
+            <a href="#">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
